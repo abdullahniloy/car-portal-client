@@ -7,7 +7,7 @@ import router from './Pages/Router/Routes';
 function App() {
 
   return (
-    <div data-theme="synthwave" className='max-w-screen-xl mx-auto	'>
+    <div className='max-w-screen-xl mx-auto	'>
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
